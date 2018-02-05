@@ -14,7 +14,7 @@ parser.add_argument('text',
 
 parser.add_argument('gpickle',
                     type=argparse.FileType('wb'),
-                    help='')
+                    help='output pickled networkx graph')
 
 args = parser.parse_args()
 
